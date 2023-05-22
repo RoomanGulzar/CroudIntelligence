@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="20dp"
+    android:backgroundTint="@color/teal_700"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_special"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/profile_question_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/baseline_profile_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/userName_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saif_userName"
+                android:textColor="@color/white"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/profile_question_image"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/date_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="12-22-2023"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:paddingRight="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_view_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="level"
+                android:paddingBottom="5dp"
+                android:textColor="#04FDFB"
+                android:textSize="14sp"
+                android:layout_marginLeft="16dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/profile_question_image"
+                app:layout_constraintTop_toBottomOf="@+id/userName_question" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_simple">
+
+            <TextView
+                android:id="@+id/text_view_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This Is my Answer"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_up_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginLeft="5dp"
+                android:minHeight="48dp"
+                android:text="10"
+                android:drawableLeft="@drawable/baseline_thumb_up_24" />
+
+            <Button
+                android:id="@+id/btn_down_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginLeft="5dp"
+                android:minHeight="48dp"
+                android:drawableLeft="@drawable/baseline_thumb_down_24"
+                android:text="12" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

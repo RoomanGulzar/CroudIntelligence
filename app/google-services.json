@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1076963207479",
+    "project_id": "nascon-b67a2",
+    "storage_bucket": "nascon-b67a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076963207479:android:9aa7850f203a432a4b52b2",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076963207479-f6f8l5hvnvo2cmrhpiebfc3b016tgne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5o-jho9oSaiHLspIkAuA6_kwd9gKVJcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076963207479-f6f8l5hvnvo2cmrhpiebfc3b016tgne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076963207479:android:89d097330801b2034b52b2",
+        "android_client_info": {
+          "package_name": "com.google.croudintelligence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076963207479-f6f8l5hvnvo2cmrhpiebfc3b016tgne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5o-jho9oSaiHLspIkAuA6_kwd9gKVJcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076963207479-f6f8l5hvnvo2cmrhpiebfc3b016tgne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
